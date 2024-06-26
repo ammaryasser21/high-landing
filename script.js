@@ -38,3 +38,6 @@ window.addEventListener('scroll', function() {
 document.getElementById('moveUpBtn').addEventListener('click', function() {
     window.scrollTo({ top: 0, behavior: 'smooth' });
 });
+document.querySelector('.burger-menu').addEventListener('click', function() {
+    document.querySelector('.new').classList.toggle('active');
+});
